@@ -1,0 +1,6 @@
+Hello #USERNAME#
+
+Thank you for joining #WEBSITENAME#
+#ACTIVATION-MESSAGE
+
+-Regards
