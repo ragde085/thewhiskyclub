@@ -102,20 +102,18 @@ if(!empty($_POST))
 }
 
 require_once("models/header.php");
-require_once("navbar.php");
 echo "
 <body>
 <br></br>
 <div class='container'>
 	<div class='row'>
 		<h2>User Settings</h2>
-		<div class='col-sm-2'></div>
-		<div class='col-sm-2'>
+		<div class='col-xs-4 col-sm-3 col-md-2'>
 		";
 include("left-nav.php");
 echo "
 		</div>
-		<div class='col-sm-4'>";
+		<div class='col-xs-5 col-sm-6'>";
 
 echo resultBlock($errors,$successes);
 

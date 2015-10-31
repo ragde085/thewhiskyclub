@@ -81,11 +81,11 @@ echo resultBlock ( $errors, $successes );
 
 echo "
 	<br></br>
-	<div class='container' >
+	<div class='container well' >
 		<div class='row'>
 			<h2>Log In</h2>
-			<div class='col-sm-4'></div>
-		  	<div class='col-sm-4'>
+			<div class='col-xs-12 col-sm-3 col-lg-2'></div>
+		  	<div class='col-xs-12 col-sm-6 col-lg-8'>
 				<form class='form' role='form' method='post' action='" . $_SERVER ['PHP_SELF'] . "' accept-charset='UTF-8' id='login-nav'>
 					<div class='form-group'>
 						<label class='sr-only' for='username'>Username</label>
